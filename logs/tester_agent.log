@@ -1,0 +1,153 @@
+2025-04-27 18:38:26,552 - INFO - SUCCESS: GET request to https://jsonplaceholder.typicode.com/posts
+2025-04-27 18:38:27,240 - WARNING - FAILED: POST request to https://jsonplaceholder.typicode.com/posts - Status Code: 201
+2025-04-27 18:38:27,263 - ERROR - ERROR: GET request to https://wrongurl.test - HTTPSConnectionPool(host='wrongurl.test', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001DDE38171D0>: Failed to resolve 'wrongurl.test' ([Errno 11001] getaddrinfo failed)"))
+2025-04-27 18:38:47,450 - INFO - Workflow Agent Scheduler Started
+2025-04-27 18:39:47,475 - INFO - Running Example Task
+2025-04-27 18:40:47,514 - INFO - Running Example Task
+2025-04-27 18:41:01,208 - INFO - DevOps Agent Started Listening for Events
+2025-04-27 18:41:03,252 - INFO - Received event from WorkflowAgent: Example Task Completed Successfully
+2025-04-27 18:41:03,259 - INFO - Simulating CI/CD pipeline execution
+2025-04-27 18:41:47,552 - INFO - Running Example Task
+2025-04-27 18:42:47,595 - INFO - Running Example Task
+2025-04-27 18:43:47,634 - INFO - Running Example Task
+2025-04-27 18:44:47,676 - INFO - Running Example Task
+2025-04-27 18:45:47,717 - INFO - Running Example Task
+2025-04-27 18:46:47,757 - INFO - Running Example Task
+2025-04-27 18:47:47,816 - INFO - Running Example Task
+2025-04-27 18:48:47,852 - INFO - Running Example Task
+2025-04-27 19:05:20,063 - INFO - SUCCESS: GET request to https://jsonplaceholder.typicode.com/posts
+2025-04-27 19:05:20,880 - WARNING - FAILED: POST request to https://jsonplaceholder.typicode.com/posts - Status Code: 201
+2025-04-27 19:05:20,891 - ERROR - ERROR: GET request to https://wrongurl.test - HTTPSConnectionPool(host='wrongurl.test', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000211ACD697C0>: Failed to resolve 'wrongurl.test' ([Errno 11001] getaddrinfo failed)"))
+2025-04-27 19:08:56,641 - INFO - SUCCESS: GET request to https://jsonplaceholder.typicode.com/posts
+2025-04-27 19:08:58,298 - WARNING - FAILED: POST request to https://jsonplaceholder.typicode.com/posts - Status Code: 201
+2025-04-27 19:08:58,310 - ERROR - ERROR: GET request to https://wrongurl.test - HTTPSConnectionPool(host='wrongurl.test', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000017C73B45C10>: Failed to resolve 'wrongurl.test' ([Errno 11001] getaddrinfo failed)"))
+2025-04-27 19:09:24,855 - INFO - Workflow Agent Scheduler Started
+2025-04-27 19:09:41,400 - INFO - DevOps Agent Started Listening for Events
+2025-04-27 19:10:24,883 - INFO - Running Example Task
+2025-04-27 19:11:24,938 - INFO - Running Example Task
+2025-04-27 19:12:25,018 - INFO - Running Example Task
+2025-04-27 19:13:25,091 - INFO - Running Example Task
+2025-04-27 19:14:25,126 - INFO - Running Example Task
+2025-04-27 19:15:25,158 - INFO - Running Example Task
+2025-04-27 19:16:25,191 - INFO - Running Example Task
+2025-04-27 19:17:25,229 - INFO - Running Example Task
+2025-04-27 19:18:25,266 - INFO - Running Example Task
+2025-04-27 19:19:25,304 - INFO - Running Example Task
+2025-04-27 19:20:25,340 - INFO - Running Example Task
+2025-04-27 19:21:25,376 - INFO - Running Example Task
+2025-04-27 19:22:25,412 - INFO - Running Example Task
+2025-04-27 19:23:25,446 - INFO - Running Example Task
+2025-04-27 19:24:25,482 - INFO - Running Example Task
+2025-04-27 19:25:25,514 - INFO - Running Example Task
+2025-04-27 19:26:25,546 - INFO - Running Example Task
+2025-04-27 19:27:25,579 - INFO - Running Example Task
+2025-04-27 19:28:25,613 - INFO - Running Example Task
+2025-04-27 19:29:25,645 - INFO - Running Example Task
+2025-04-27 19:30:25,674 - INFO - Running Example Task
+2025-04-27 19:31:25,708 - INFO - Running Example Task
+2025-04-27 19:32:25,741 - INFO - Running Example Task
+2025-04-27 19:33:25,773 - INFO - Running Example Task
+2025-04-27 19:34:25,808 - INFO - Running Example Task
+2025-04-27 19:35:25,844 - INFO - Running Example Task
+2025-04-27 19:36:25,880 - INFO - Running Example Task
+2025-04-27 19:37:25,912 - INFO - Running Example Task
+2025-04-27 19:38:25,948 - INFO - Running Example Task
+2025-04-27 19:39:25,975 - INFO - Running Example Task
+2025-04-27 19:40:26,009 - INFO - Running Example Task
+2025-04-27 19:41:26,041 - INFO - Running Example Task
+2025-04-27 19:42:26,076 - INFO - Running Example Task
+2025-04-27 19:43:26,111 - INFO - Running Example Task
+2025-04-27 19:44:26,150 - INFO - Running Example Task
+2025-04-27 19:45:26,182 - INFO - Running Example Task
+2025-04-27 19:46:26,212 - INFO - Running Example Task
+2025-04-27 19:47:26,246 - INFO - Running Example Task
+2025-04-27 19:48:26,286 - INFO - Running Example Task
+2025-04-27 19:49:26,322 - INFO - Running Example Task
+2025-04-27 19:50:26,357 - INFO - Running Example Task
+2025-04-27 19:51:26,389 - INFO - Running Example Task
+2025-04-27 19:52:26,426 - INFO - Running Example Task
+2025-04-27 19:53:26,458 - INFO - Running Example Task
+2025-04-27 19:54:26,495 - INFO - Running Example Task
+2025-04-27 19:55:26,540 - INFO - Running Example Task
+2025-04-27 19:56:26,574 - INFO - Running Example Task
+2025-04-27 19:57:26,607 - INFO - Running Example Task
+2025-04-27 19:58:26,644 - INFO - Running Example Task
+2025-04-27 19:59:26,683 - INFO - Running Example Task
+2025-04-27 20:00:26,724 - INFO - Running Example Task
+2025-04-27 20:01:26,762 - INFO - Running Example Task
+2025-04-27 20:02:26,801 - INFO - Running Example Task
+2025-04-27 20:03:26,838 - INFO - Running Example Task
+2025-04-27 20:04:26,880 - INFO - Running Example Task
+2025-04-27 20:05:26,917 - INFO - Running Example Task
+2025-04-27 20:06:26,954 - INFO - Running Example Task
+2025-04-27 20:07:26,989 - INFO - Running Example Task
+2025-04-27 20:08:27,029 - INFO - Running Example Task
+2025-04-27 20:09:27,068 - INFO - Running Example Task
+2025-04-27 20:10:27,109 - INFO - Running Example Task
+2025-04-27 20:11:27,146 - INFO - Running Example Task
+2025-04-27 20:12:27,184 - INFO - Running Example Task
+2025-04-27 20:13:27,221 - INFO - Running Example Task
+2025-04-27 20:14:27,258 - INFO - Running Example Task
+2025-04-27 20:15:27,288 - INFO - Running Example Task
+2025-04-27 20:16:27,332 - INFO - Running Example Task
+2025-04-27 20:17:27,369 - INFO - Running Example Task
+2025-04-27 20:18:27,406 - INFO - Running Example Task
+2025-04-27 20:19:27,458 - INFO - Running Example Task
+2025-04-27 20:20:27,500 - INFO - Running Example Task
+2025-04-27 20:21:27,534 - INFO - Running Example Task
+2025-04-27 20:22:27,577 - INFO - Running Example Task
+2025-04-27 20:23:27,613 - INFO - Running Example Task
+2025-04-27 20:24:27,650 - INFO - Running Example Task
+2025-04-27 20:25:27,687 - INFO - Running Example Task
+2025-04-27 20:26:27,729 - INFO - Running Example Task
+2025-04-27 20:27:27,762 - INFO - Running Example Task
+2025-04-27 20:28:27,802 - INFO - Running Example Task
+2025-04-27 20:29:27,840 - INFO - Running Example Task
+2025-04-27 20:30:27,879 - INFO - Running Example Task
+2025-04-27 20:31:27,912 - INFO - Running Example Task
+2025-04-27 22:05:55,563 - INFO - SUCCESS: GET request to https://jsonplaceholder.typicode.com/posts
+2025-04-27 22:05:56,214 - WARNING - FAILED: POST request to https://jsonplaceholder.typicode.com/posts - Status Code: 201
+2025-04-27 22:05:56,227 - ERROR - ERROR: GET request to https://wrongurl.test - HTTPSConnectionPool(host='wrongurl.test', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000204293A5C10>: Failed to resolve 'wrongurl.test' ([Errno 11001] getaddrinfo failed)"))
+2025-04-27 22:06:13,341 - INFO - Workflow Agent Scheduler Started
+2025-04-27 22:06:31,671 - INFO - DevOps Agent Started Listening for Events
+2025-04-27 22:06:33,724 - INFO - Received event from WorkflowAgent: Example Task Completed Successfully
+2025-04-27 22:06:33,736 - INFO - Simulating CI/CD pipeline execution
+2025-04-27 22:07:13,371 - INFO - Running Example Task
+2025-04-27 22:08:13,407 - INFO - Running Example Task
+2025-04-27 22:09:13,448 - INFO - Running Example Task
+2025-04-27 22:10:13,482 - INFO - Running Example Task
+2025-04-27 22:11:13,555 - INFO - Running Example Task
+2025-04-27 22:12:13,600 - INFO - Running Example Task
+2025-04-27 22:13:13,635 - INFO - Running Example Task
+2025-04-27 22:14:13,687 - INFO - Running Example Task
+2025-04-27 22:15:13,724 - INFO - Running Example Task
+2025-04-27 22:16:13,765 - INFO - Running Example Task
+2025-04-27 22:17:13,811 - INFO - Running Example Task
+2025-04-27 22:18:13,846 - INFO - Running Example Task
+2025-04-27 22:19:13,881 - INFO - Running Example Task
+2025-04-27 22:20:13,919 - INFO - Running Example Task
+2025-04-27 22:21:13,950 - INFO - Running Example Task
+2025-04-27 22:22:13,990 - INFO - Running Example Task
+2025-04-27 22:23:14,029 - INFO - Running Example Task
+2025-04-27 22:24:14,061 - INFO - Running Example Task
+2025-04-27 22:25:14,093 - INFO - Running Example Task
+2025-04-27 22:26:14,127 - INFO - Running Example Task
+2025-04-27 22:27:14,163 - INFO - Running Example Task
+2025-04-27 22:28:14,198 - INFO - Running Example Task
+2025-04-27 22:29:14,229 - INFO - Running Example Task
+2025-04-27 22:30:14,260 - INFO - Running Example Task
+2025-04-27 22:31:14,295 - INFO - Running Example Task
+2025-04-27 22:38:28,941 - INFO - SUCCESS: GET request to https://jsonplaceholder.typicode.com/posts
+2025-04-27 22:38:29,771 - WARNING - FAILED: POST request to https://jsonplaceholder.typicode.com/posts - Status Code: 201
+2025-04-27 22:38:29,781 - ERROR - ERROR: GET request to https://wrongurl.test - HTTPSConnectionPool(host='wrongurl.test', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000023DFFDB5880>: Failed to resolve 'wrongurl.test' ([Errno 11001] getaddrinfo failed)"))
+2025-04-27 22:39:00,552 - INFO - Workflow Agent Scheduler Started
+2025-04-27 22:39:05,091 - INFO - DevOps Agent Started Listening for Events
+2025-04-27 22:39:10,660 - INFO - SUCCESS: GET request to https://jsonplaceholder.typicode.com/posts
+2025-04-27 22:39:11,300 - WARNING - FAILED: POST request to https://jsonplaceholder.typicode.com/posts - Status Code: 201
+2025-04-27 22:39:11,315 - ERROR - ERROR: GET request to https://wrongurl.test - HTTPSConnectionPool(host='wrongurl.test', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000023DFFDB7E90>: Failed to resolve 'wrongurl.test' ([Errno 11001] getaddrinfo failed)"))
+2025-04-27 22:39:33,762 - INFO - SUCCESS: GET request to https://jsonplaceholder.typicode.com/posts
+2025-04-27 22:39:34,400 - WARNING - FAILED: POST request to https://jsonplaceholder.typicode.com/posts - Status Code: 201
+2025-04-27 22:39:34,411 - ERROR - ERROR: GET request to https://wrongurl.test - HTTPSConnectionPool(host='wrongurl.test', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000023DFFDB67B0>: Failed to resolve 'wrongurl.test' ([Errno 11001] getaddrinfo failed)"))
+2025-04-27 22:40:14,819 - INFO - SUCCESS: GET request to https://jsonplaceholder.typicode.com/posts
+2025-04-27 22:40:15,509 - WARNING - FAILED: POST request to https://jsonplaceholder.typicode.com/posts - Status Code: 201
+2025-04-27 22:40:15,523 - ERROR - ERROR: GET request to https://wrongurl.test - HTTPSConnectionPool(host='wrongurl.test', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001E013355880>: Failed to resolve 'wrongurl.test' ([Errno 11001] getaddrinfo failed)"))

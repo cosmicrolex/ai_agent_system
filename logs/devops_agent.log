@@ -1,0 +1,6 @@
+2025-04-27 13:17:03,186 - INFO - Ping to 8.8.8.8 Successful
+2025-04-27 13:17:03,194 - INFO - Simulating CI/CD pipeline execution
+2025-04-27 13:18:03,257 - INFO - Ping to 8.8.8.8 Successful
+2025-04-27 13:18:03,261 - INFO - Simulating CI/CD pipeline execution
+2025-04-27 13:18:12,591 - INFO - DevOps Agent Stopped Manually
+2025-04-27 17:29:22,120 - INFO - DevOps Agent Started Listening for Events

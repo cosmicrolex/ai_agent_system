@@ -1,0 +1,5 @@
+2025-04-27 18:25:25,152 - INFO - SUCCESS: GET request to https://jsonplaceholder.typicode.com/posts
+2025-04-27 18:25:25,933 - WARNING - FAILED: POST request to https://jsonplaceholder.typicode.com/posts - Status Code: 201
+2025-04-27 18:25:25,945 - ERROR - ERROR: GET request to https://wrongurl.test - HTTPSConnectionPool(host='wrongurl.test', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001BA9C088200>: Failed to resolve 'wrongurl.test' ([Errno 11001] getaddrinfo failed)"))
+2025-04-27 18:25:27,560 - INFO - Workflow Agent Scheduler Started
+2025-04-27 18:25:29,595 - INFO - DevOps Agent Started Listening for Events
