@@ -13,6 +13,29 @@ from agents.devops_agent.devops_agent import DevOpsAgent
 
 
 def run_tester_agent():
+    from agents.tester_agent.tester_agent import TesterAgent
+    import requests
+
+    def send_event(agent_from, agent_to, message):
+        url = "http://localhost:5000/event"
+        headers = {"Authorization": "mysecrettoken"}
+        data = {
+            "from": agent_from,
+            "to": agent_to,
+            "message": message
+        }
+        try:
+            response = requests.post(url, json=data, headers=headers)
+            if response.status_code == 200:
+                print(f"Event sent: {data}")
+            else:
+                print(f"Failed to send event: {response.text}")
+        except Exception as e:
+            print(f"Exception in sending event: {e}")
+
+    # Send "Agent Started" Event
+    send_event("TesterAgent", "WebUI", "Tester Agent Started")
+
     endpoints_to_test = [
         {"url": "https://jsonplaceholder.typicode.com/posts", "method": "GET"},
         {"url": "https://jsonplaceholder.typicode.com/posts", "method": "POST"},
@@ -23,6 +46,29 @@ def run_tester_agent():
     agent.close()
 
 def run_workflow_agent():
+    from agents.workflow_agent.workflow_agent import WorkflowAgent
+    import requests
+
+    def send_event(agent_from, agent_to, message):
+        url = "http://localhost:5000/event"
+        headers = {"Authorization": "mysecrettoken"}
+        data = {
+            "from": agent_from,
+            "to": agent_to,
+            "message": message
+        }
+        try:
+            response = requests.post(url, json=data, headers=headers)
+            if response.status_code == 200:
+                print(f"Event sent: {data}")
+            else:
+                print(f"Failed to send event: {response.text}")
+        except Exception as e:
+            print(f"Exception in sending event: {e}")
+
+    # Send "Agent Started" Event
+    send_event("WorkflowAgent", "WebUI", "Workflow Agent Started")
+
     agent = WorkflowAgent()
     try:
         agent.run_scheduler()
@@ -31,6 +77,29 @@ def run_workflow_agent():
         agent.close()
 
 def run_devops_agent():
+    from agents.devops_agent.devops_agent import DevOpsAgent
+    import requests
+
+    def send_event(agent_from, agent_to, message):
+        url = "http://localhost:5000/event"
+        headers = {"Authorization": "mysecrettoken"}
+        data = {
+            "from": agent_from,
+            "to": agent_to,
+            "message": message
+        }
+        try:
+            response = requests.post(url, json=data, headers=headers)
+            if response.status_code == 200:
+                print(f"Event sent: {data}")
+            else:
+                print(f"Failed to send event: {response.text}")
+        except Exception as e:
+            print(f"Exception in sending event: {e}")
+
+    # Send "Agent Started" Event
+    send_event("DevOpsAgent", "WebUI", "DevOps Agent Started")
+
     agent = DevOpsAgent()
     try:
         agent.run_tasks()

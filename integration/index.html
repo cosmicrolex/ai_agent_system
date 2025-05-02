@@ -1,28 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Agent Monitoring Dashboard</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <h1>🛰️ AI Agent Monitoring Dashboard</h1>
     <div class="container">
-        <table id="eventsTable">
-            <thead>
-                <tr>
-                    <th>From</th>
-                    <th>To</th>
-                    <th>Message</th>
-                </tr>
-            </thead>
-            <tbody>
-                <!-- Events will be dynamically added here -->
-            </tbody>
-        </table>
+      <table id="eventsTable">
+        <thead>
+          <tr>
+            <th>From</th>
+            <th>To</th>
+            <th>Message</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Events will be dynamically added here -->
+        </tbody>
+      </table>
+      <br />
+      <div style="margin-top: 30px">
+        <a href="tester_logs.html"
+          ><button class="log-btn">📄 Tester Agent Logs</button></a
+        >
+        <a href="workflow_logs.html"
+          ><button class="log-btn">🧠 Workflow Agent Logs</button></a
+        >
+        <a href="devops_logs.html"
+          ><button class="log-btn">⚙️ DevOps Agent Logs</button></a
+        >
+          </div>
     </div>
 
     <script src="app.js"></script>
-</body>
+  </body>
 </html>

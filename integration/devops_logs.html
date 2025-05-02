@@ -1,0 +1,45 @@
+<!-- ui/devops_logs.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DevOps Agent Logs</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .log-box {
+        text-align: left;
+        background-color: #f8f8f8;
+        border: 1px solid #ccc;
+        padding: 15px;
+        margin: 20px auto;
+        width: 90%;
+        height: 400px;
+        overflow-y: scroll;
+        font-family: monospace;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>⚙️ DevOps Agent Logs</h1>
+    <div class="log-box" id="logBox">Loading logs...</div>
+    <br />
+    <a href="index.html"
+      ><button class="log-btn">🔙 Back to Dashboard</button></a
+    >
+
+    <script>
+      async function loadLogs() {
+        try {
+          const response = await fetch(
+            "http://localhost:5000/logs/devops_agent.log"
+          );
+          const text = await response.text();
+          document.getElementById("logBox").innerText = text;
+        } catch (error) {
+          document.getElementById("logBox").innerText =
+            "Error loading logs: " + error;
+        }
+      }
+      loadLogs();
+    </script>
+  </body>
+</html>

@@ -1,12 +1,25 @@
 # agents/workflow_agent/workflow_agent.py
 
-import schedule
-import time
 import logging
 import os
+import schedule
+import time
 import mysql.connector
+import requests
 
-import requests  # ADD THIS import at top
+# Setup custom logger for Workflow Agent
+logger = logging.getLogger("WorkflowAgentLogger")
+logger.setLevel(logging.INFO)
+
+log_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../logs'))
+os.makedirs(log_dir, exist_ok=True)
+log_file_path = os.path.join(log_dir, 'workflow_agent.log')
+
+if not logger.handlers:
+    file_handler = logging.FileHandler(log_file_path)
+    formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+    file_handler.setFormatter(formatter)
+    logger.addHandler(file_handler)
 
 def send_event(agent_from, agent_to, message):
     url = "http://localhost:5000/event"
@@ -19,29 +32,14 @@ def send_event(agent_from, agent_to, message):
     try:
         response = requests.post(url, json=data, headers=headers)
         if response.status_code == 200:
-            print(f"Event sent: {data}")
+            logger.info(f"Sent event to {agent_to}: {message}")
         else:
-            print(f"Failed to send event: {response.text}")
+            logger.error(f"Failed to send event: {response.text}")
     except Exception as e:
-        print(f"Exception in sending event: {e}")
-
-# Ensure log directory exists
-log_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../logs'))
-if not os.path.exists(log_dir):
-    os.makedirs(log_dir)
-
-log_file_path = os.path.join(log_dir, 'workflow_agent.log')
-
-# Configure logging
-logging.basicConfig(
-    filename=log_file_path,
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s'
-)
+        logger.error(f"Exception in sending event: {e}")
 
 class WorkflowAgent:
     def __init__(self):
-        # Setup DB Connection
         self.db = mysql.connector.connect(
             host="localhost",
             user="root",
@@ -57,18 +55,23 @@ class WorkflowAgent:
         self.db.commit()
 
     def example_task(self):
-        logging.info("Running Example Task")
-        self.save_log_to_db("Example Task", "Completed Successfully")
-    
-        # Now send event to Event Bus
-    send_event("WorkflowAgent", "DevOpsAgent", "Example Task Completed Successfully")
-
+        task_name = "Example Task"
+        try:
+            logger.info(f"Running: {task_name}")
+            # Simulate task logic
+            time.sleep(1)
+            status = "Completed Successfully"
+            logger.info(f"{task_name} - {status}")
+            self.save_log_to_db(task_name, status)
+            send_event("WorkflowAgent", "DevOpsAgent", f"{task_name} {status}")
+        except Exception as e:
+            logger.error(f"{task_name} failed: {str(e)}")
+            self.save_log_to_db(task_name, f"Failed: {str(e)}")
 
     def run_scheduler(self):
-        # Schedule example task every 1 minute
+        logger.info("Workflow Agent Started Scheduler")
         schedule.every(1).minutes.do(self.example_task)
 
-        logging.info("Workflow Agent Scheduler Started")
         while True:
             schedule.run_pending()
             time.sleep(1)
@@ -77,12 +80,3 @@ class WorkflowAgent:
         if self.db.is_connected():
             self.cursor.close()
             self.db.close()
-
-# Example Usage
-if __name__ == "__main__":
-    agent = WorkflowAgent()
-    try:
-        agent.run_scheduler()
-    except KeyboardInterrupt:
-        logging.info("Workflow Agent Stopped Manually")
-        agent.close()
