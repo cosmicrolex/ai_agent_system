@@ -1,187 +1,214 @@
-2025-05-02 12:56:23,881 - INFO - SUCCESS: GET request to https://jsonplaceholder.typicode.com/posts
-2025-05-02 12:56:24,686 - WARNING - FAILED: POST request to https://jsonplaceholder.typicode.com/posts - Status Code: 201
-2025-05-02 12:56:24,714 - ERROR - ERROR: GET request to https://wrongurl.test - HTTPSConnectionPool(host='wrongurl.test', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002B506777D10>: Failed to resolve 'wrongurl.test' ([Errno 11001] getaddrinfo failed)"))
-2025-05-02 12:56:41,654 - INFO - Workflow Agent Scheduler Started
-2025-05-02 12:57:41,679 - INFO - Running Example Task
-2025-05-02 12:58:41,759 - INFO - Running Example Task
-2025-05-02 12:59:41,797 - INFO - Running Example Task
-2025-05-02 13:01:39,586 - INFO - Workflow Agent Started Scheduler
-2025-05-02 13:02:39,614 - INFO - Running: Example Task
-2025-05-02 13:02:40,616 - INFO - Example Task - Completed Successfully
-2025-05-02 13:02:42,656 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
-2025-05-02 13:03:42,707 - INFO - Running: Example Task
-2025-05-02 13:03:43,708 - INFO - Example Task - Completed Successfully
-2025-05-02 13:03:45,773 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
-2025-05-02 13:04:45,816 - INFO - Running: Example Task
-2025-05-02 13:04:46,817 - INFO - Example Task - Completed Successfully
-2025-05-02 13:04:48,880 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
-2025-05-02 13:05:48,914 - INFO - Running: Example Task
-2025-05-02 13:05:49,914 - INFO - Example Task - Completed Successfully
-2025-05-02 13:05:51,961 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
-2025-05-02 13:06:51,995 - INFO - Running: Example Task
-2025-05-02 13:06:52,996 - INFO - Example Task - Completed Successfully
-2025-05-02 13:06:55,038 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
-2025-05-02 13:07:55,065 - INFO - Running: Example Task
-2025-05-02 13:07:56,065 - INFO - Example Task - Completed Successfully
-2025-05-02 13:07:58,116 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
-2025-05-02 13:34:37,314 - INFO - Workflow Agent Started Scheduler
-2025-05-02 13:35:37,352 - INFO - Running: Example Task
-2025-05-02 13:35:38,353 - INFO - Example Task - Completed Successfully
-2025-05-02 13:35:40,409 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
-2025-05-02 13:36:40,436 - INFO - Running: Example Task
-2025-05-02 13:36:41,437 - INFO - Example Task - Completed Successfully
-2025-05-02 13:36:43,459 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
-2025-05-02 13:37:43,486 - INFO - Running: Example Task
-2025-05-02 13:37:44,487 - INFO - Example Task - Completed Successfully
-2025-05-02 13:37:46,552 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
-2025-05-02 13:38:46,580 - INFO - Running: Example Task
-2025-05-02 13:38:47,581 - INFO - Example Task - Completed Successfully
-2025-05-02 13:38:49,624 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
-2025-05-02 13:39:49,663 - INFO - Running: Example Task
-2025-05-02 13:39:50,664 - INFO - Example Task - Completed Successfully
-2025-05-02 13:39:52,714 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
-2025-05-02 13:40:52,750 - INFO - Running: Example Task
-2025-05-02 13:40:53,750 - INFO - Example Task - Completed Successfully
-2025-05-02 13:40:55,800 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
-2025-05-02 13:41:55,831 - INFO - Running: Example Task
-2025-05-02 13:41:56,832 - INFO - Example Task - Completed Successfully
-2025-05-02 13:41:58,882 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
-2025-05-02 13:42:58,912 - INFO - Running: Example Task
-2025-05-02 13:42:59,913 - INFO - Example Task - Completed Successfully
-2025-05-02 13:43:01,957 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
-2025-05-02 13:44:01,985 - INFO - Running: Example Task
-2025-05-02 13:44:02,986 - INFO - Example Task - Completed Successfully
-2025-05-02 13:44:05,038 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
-2025-05-02 13:45:05,086 - INFO - Running: Example Task
-2025-05-02 13:45:06,087 - INFO - Example Task - Completed Successfully
-2025-05-02 13:45:08,137 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
-2025-05-02 13:46:08,190 - INFO - Running: Example Task
-2025-05-02 13:46:09,191 - INFO - Example Task - Completed Successfully
-2025-05-02 13:46:11,250 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
-2025-05-02 13:54:52,600 - INFO - Workflow Agent Started Scheduler
-2025-05-02 13:55:52,631 - INFO - Running: Example Task
-2025-05-02 13:55:53,632 - INFO - Example Task - Completed Successfully
-2025-05-02 13:55:55,665 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
-2025-05-02 13:56:55,712 - INFO - Running: Example Task
-2025-05-02 13:56:56,713 - INFO - Example Task - Completed Successfully
-2025-05-02 13:56:58,763 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
-2025-05-02 13:57:58,795 - INFO - Running: Example Task
-2025-05-02 13:57:59,796 - INFO - Example Task - Completed Successfully
-2025-05-02 13:58:01,841 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
-2025-05-02 13:59:01,871 - INFO - Running: Example Task
-2025-05-02 13:59:02,872 - INFO - Example Task - Completed Successfully
-2025-05-02 13:59:04,904 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
-2025-05-02 14:00:04,936 - INFO - Running: Example Task
-2025-05-02 14:00:05,937 - INFO - Example Task - Completed Successfully
-2025-05-02 14:00:07,969 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
-2025-05-02 14:01:07,997 - INFO - Running: Example Task
-2025-05-02 14:01:08,998 - INFO - Example Task - Completed Successfully
-2025-05-02 14:01:11,037 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
-2025-05-02 14:02:11,075 - INFO - Running: Example Task
-2025-05-02 14:02:12,076 - INFO - Example Task - Completed Successfully
-2025-05-02 14:02:14,114 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
-2025-05-02 14:03:14,171 - INFO - Running: Example Task
-2025-05-02 14:03:15,172 - INFO - Example Task - Completed Successfully
-2025-05-02 14:03:17,216 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
-2025-05-02 14:04:17,256 - INFO - Running: Example Task
-2025-05-02 14:04:18,256 - INFO - Example Task - Completed Successfully
-2025-05-02 14:04:20,320 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
-2025-05-02 14:05:20,352 - INFO - Running: Example Task
-2025-05-02 14:05:21,353 - INFO - Example Task - Completed Successfully
-2025-05-02 14:05:23,395 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
-2025-05-02 14:06:23,424 - INFO - Running: Example Task
-2025-05-02 14:06:24,426 - INFO - Example Task - Completed Successfully
-2025-05-02 14:06:26,456 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
-2025-05-02 14:07:26,488 - INFO - Running: Example Task
-2025-05-02 14:07:27,489 - INFO - Example Task - Completed Successfully
-2025-05-02 14:07:29,513 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
-2025-05-02 14:08:29,548 - INFO - Running: Example Task
-2025-05-02 14:08:30,549 - INFO - Example Task - Completed Successfully
-2025-05-02 14:08:32,595 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
-2025-05-02 14:09:32,628 - INFO - Running: Example Task
-2025-05-02 14:09:33,630 - INFO - Example Task - Completed Successfully
-2025-05-02 14:09:35,665 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
-2025-05-02 14:10:35,701 - INFO - Running: Example Task
-2025-05-02 14:10:36,701 - INFO - Example Task - Completed Successfully
-2025-05-02 14:10:38,755 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
-2025-05-02 14:19:58,250 - INFO - Running: Example Task
-2025-05-02 14:19:59,470 - INFO - Example Task - Completed Successfully
-2025-05-02 14:20:01,508 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
-2025-05-02 14:55:22,668 - INFO - Running: Example Task
-2025-05-02 14:55:23,669 - INFO - Example Task - Completed Successfully
-2025-05-02 14:55:25,715 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
-2025-05-02 14:56:25,745 - INFO - Running: Example Task
-2025-05-02 14:56:26,745 - INFO - Example Task - Completed Successfully
-2025-05-02 14:56:28,777 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
-2025-05-02 14:57:28,807 - INFO - Running: Example Task
-2025-05-02 14:57:29,808 - INFO - Example Task - Completed Successfully
-2025-05-02 14:57:31,845 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
-2025-05-02 14:58:31,892 - INFO - Running: Example Task
-2025-05-02 14:58:32,893 - INFO - Example Task - Completed Successfully
-2025-05-02 14:58:34,945 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
-2025-05-02 14:59:35,001 - INFO - Running: Example Task
-2025-05-02 14:59:36,002 - INFO - Example Task - Completed Successfully
-2025-05-02 14:59:38,038 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
-2025-05-02 15:00:38,080 - INFO - Running: Example Task
-2025-05-02 15:00:39,080 - INFO - Example Task - Completed Successfully
-2025-05-02 15:00:41,117 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
-2025-05-02 15:01:41,161 - INFO - Running: Example Task
-2025-05-02 15:01:42,162 - INFO - Example Task - Completed Successfully
-2025-05-02 15:01:44,205 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
-2025-05-02 15:02:44,250 - INFO - Running: Example Task
-2025-05-02 15:02:45,251 - INFO - Example Task - Completed Successfully
-2025-05-02 15:02:47,297 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
-2025-05-02 15:03:47,330 - INFO - Running: Example Task
-2025-05-02 15:03:48,331 - INFO - Example Task - Completed Successfully
-2025-05-02 15:03:50,362 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
-2025-05-02 15:04:50,402 - INFO - Running: Example Task
-2025-05-02 15:04:51,403 - INFO - Example Task - Completed Successfully
-2025-05-02 15:04:53,446 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
-2025-05-02 15:05:53,503 - INFO - Running: Example Task
-2025-05-02 15:05:54,504 - INFO - Example Task - Completed Successfully
-2025-05-02 15:05:56,552 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
-2025-05-02 15:06:56,597 - INFO - Running: Example Task
-2025-05-02 15:06:57,599 - INFO - Example Task - Completed Successfully
-2025-05-02 15:06:59,629 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
-2025-05-02 15:07:59,663 - INFO - Running: Example Task
-2025-05-02 15:08:00,664 - INFO - Example Task - Completed Successfully
-2025-05-02 15:08:02,708 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
-2025-05-02 15:09:02,746 - INFO - Running: Example Task
-2025-05-02 15:09:03,747 - INFO - Example Task - Completed Successfully
-2025-05-02 15:09:05,800 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
-2025-05-02 15:10:05,839 - INFO - Running: Example Task
-2025-05-02 15:10:06,840 - INFO - Example Task - Completed Successfully
-2025-05-02 15:10:08,906 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
-2025-05-02 15:11:08,950 - INFO - Running: Example Task
-2025-05-02 15:11:09,951 - INFO - Example Task - Completed Successfully
-2025-05-02 15:11:11,990 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
-2025-05-02 15:12:12,028 - INFO - Running: Example Task
-2025-05-02 15:12:13,029 - INFO - Example Task - Completed Successfully
-2025-05-02 15:12:15,075 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
-2025-05-02 15:13:15,123 - INFO - Running: Example Task
-2025-05-02 15:13:16,124 - INFO - Example Task - Completed Successfully
-2025-05-02 15:13:18,193 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
-2025-05-02 15:14:18,263 - INFO - Running: Example Task
-2025-05-02 15:14:19,264 - INFO - Example Task - Completed Successfully
-2025-05-02 15:14:21,305 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
-2025-05-02 15:15:21,394 - INFO - Running: Example Task
-2025-05-02 15:15:22,394 - INFO - Example Task - Completed Successfully
-2025-05-02 15:15:24,447 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
-2025-05-02 15:16:24,512 - INFO - Running: Example Task
-2025-05-02 15:16:25,513 - INFO - Example Task - Completed Successfully
-2025-05-02 15:16:27,558 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
-2025-05-02 15:17:27,590 - INFO - Running: Example Task
-2025-05-02 15:17:28,591 - INFO - Example Task - Completed Successfully
-2025-05-02 15:17:30,651 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
-2025-05-02 15:18:30,683 - INFO - Running: Example Task
-2025-05-02 15:18:31,684 - INFO - Example Task - Completed Successfully
-2025-05-02 15:18:33,716 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
-2025-05-02 15:19:33,752 - INFO - Running: Example Task
-2025-05-02 15:19:34,755 - INFO - Example Task - Completed Successfully
-2025-05-02 15:19:36,811 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
-2025-05-02 15:20:36,876 - INFO - Running: Example Task
-2025-05-02 15:20:37,877 - INFO - Example Task - Completed Successfully
-2025-05-02 15:20:39,924 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
-2025-05-02 15:21:39,964 - INFO - Running: Example Task
-2025-05-02 15:21:40,965 - INFO - Example Task - Completed Successfully
-2025-05-02 15:21:43,012 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 11:16:14,036 - INFO - Running: Example Task
+2025-05-03 11:16:15,037 - INFO - Example Task - Completed Successfully
+2025-05-03 11:16:17,090 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 11:17:17,125 - INFO - Running: Example Task
+2025-05-03 11:17:18,126 - INFO - Example Task - Completed Successfully
+2025-05-03 11:17:20,175 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 11:18:20,209 - INFO - Running: Example Task
+2025-05-03 11:18:21,210 - INFO - Example Task - Completed Successfully
+2025-05-03 11:18:23,267 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 11:19:23,298 - INFO - Running: Example Task
+2025-05-03 11:19:24,298 - INFO - Example Task - Completed Successfully
+2025-05-03 11:19:26,343 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 11:20:26,422 - INFO - Running: Example Task
+2025-05-03 11:20:27,423 - INFO - Example Task - Completed Successfully
+2025-05-03 11:20:29,464 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 11:21:29,498 - INFO - Running: Example Task
+2025-05-03 11:21:30,498 - INFO - Example Task - Completed Successfully
+2025-05-03 11:21:32,544 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 11:22:32,576 - INFO - Running: Example Task
+2025-05-03 11:22:33,577 - INFO - Example Task - Completed Successfully
+2025-05-03 11:22:35,630 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 11:23:35,668 - INFO - Running: Example Task
+2025-05-03 11:23:36,669 - INFO - Example Task - Completed Successfully
+2025-05-03 11:23:38,724 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 11:24:38,773 - INFO - Running: Example Task
+2025-05-03 11:24:39,774 - INFO - Example Task - Completed Successfully
+2025-05-03 11:24:41,810 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 11:25:41,867 - INFO - Running: Example Task
+2025-05-03 11:25:42,868 - INFO - Example Task - Completed Successfully
+2025-05-03 11:25:44,919 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 11:26:44,956 - INFO - Running: Example Task
+2025-05-03 11:26:45,957 - INFO - Example Task - Completed Successfully
+2025-05-03 11:26:48,013 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 11:27:48,051 - INFO - Running: Example Task
+2025-05-03 11:27:49,052 - INFO - Example Task - Completed Successfully
+2025-05-03 11:27:51,098 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 11:28:51,135 - INFO - Running: Example Task
+2025-05-03 11:28:52,137 - INFO - Example Task - Completed Successfully
+2025-05-03 11:28:54,192 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 11:29:54,224 - INFO - Running: Example Task
+2025-05-03 11:29:55,225 - INFO - Example Task - Completed Successfully
+2025-05-03 11:29:57,290 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 11:30:57,324 - INFO - Running: Example Task
+2025-05-03 11:30:58,325 - INFO - Example Task - Completed Successfully
+2025-05-03 11:31:00,369 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 11:32:00,400 - INFO - Running: Example Task
+2025-05-03 11:32:01,401 - INFO - Example Task - Completed Successfully
+2025-05-03 11:32:03,457 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 12:13:06,594 - INFO - Workflow Agent Started Scheduler
+2025-05-03 12:14:06,621 - INFO - Running: Example Task
+2025-05-03 12:14:07,622 - INFO - Example Task - Completed Successfully
+2025-05-03 12:14:09,648 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 12:15:09,680 - INFO - Running: Example Task
+2025-05-03 12:15:10,681 - INFO - Example Task - Completed Successfully
+2025-05-03 12:15:12,738 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 12:16:12,765 - INFO - Running: Example Task
+2025-05-03 12:16:13,766 - INFO - Example Task - Completed Successfully
+2025-05-03 12:16:15,813 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 12:17:15,842 - INFO - Running: Example Task
+2025-05-03 12:17:16,843 - INFO - Example Task - Completed Successfully
+2025-05-03 12:17:18,879 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 12:18:18,906 - INFO - Running: Example Task
+2025-05-03 12:18:19,907 - INFO - Example Task - Completed Successfully
+2025-05-03 12:18:21,939 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 12:19:21,970 - INFO - Running: Example Task
+2025-05-03 12:19:22,971 - INFO - Example Task - Completed Successfully
+2025-05-03 12:19:25,006 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 12:20:25,034 - INFO - Running: Example Task
+2025-05-03 12:20:26,035 - INFO - Example Task - Completed Successfully
+2025-05-03 12:20:28,077 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 12:21:28,104 - INFO - Running: Example Task
+2025-05-03 12:21:29,105 - INFO - Example Task - Completed Successfully
+2025-05-03 12:21:31,169 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 12:22:31,201 - INFO - Running: Example Task
+2025-05-03 12:22:32,202 - INFO - Example Task - Completed Successfully
+2025-05-03 12:22:34,251 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 12:23:34,306 - INFO - Running: Example Task
+2025-05-03 12:23:35,307 - INFO - Example Task - Completed Successfully
+2025-05-03 12:23:37,352 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 12:24:37,398 - INFO - Running: Example Task
+2025-05-03 12:24:38,399 - INFO - Example Task - Completed Successfully
+2025-05-03 12:24:40,451 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 12:25:40,478 - INFO - Running: Example Task
+2025-05-03 12:25:41,479 - INFO - Example Task - Completed Successfully
+2025-05-03 12:25:43,514 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 12:26:43,547 - INFO - Running: Example Task
+2025-05-03 12:26:44,547 - INFO - Example Task - Completed Successfully
+2025-05-03 12:26:46,611 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 12:27:46,652 - INFO - Running: Example Task
+2025-05-03 12:27:47,652 - INFO - Example Task - Completed Successfully
+2025-05-03 12:27:49,714 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 12:28:49,759 - INFO - Running: Example Task
+2025-05-03 12:28:50,760 - INFO - Example Task - Completed Successfully
+2025-05-03 12:28:52,792 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 12:29:52,851 - INFO - Running: Example Task
+2025-05-03 12:29:53,853 - INFO - Example Task - Completed Successfully
+2025-05-03 12:29:55,906 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 12:30:55,970 - INFO - Running: Example Task
+2025-05-03 12:30:56,971 - INFO - Example Task - Completed Successfully
+2025-05-03 12:30:59,017 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 12:31:59,082 - INFO - Running: Example Task
+2025-05-03 12:32:00,084 - INFO - Example Task - Completed Successfully
+2025-05-03 12:32:02,138 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 12:33:02,298 - INFO - Running: Example Task
+2025-05-03 12:33:03,300 - INFO - Example Task - Completed Successfully
+2025-05-03 12:33:05,349 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 12:34:05,411 - INFO - Running: Example Task
+2025-05-03 12:34:06,413 - INFO - Example Task - Completed Successfully
+2025-05-03 12:34:08,459 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 12:35:08,496 - INFO - Running: Example Task
+2025-05-03 12:35:09,497 - INFO - Example Task - Completed Successfully
+2025-05-03 12:35:11,559 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 12:36:11,611 - INFO - Running: Example Task
+2025-05-03 12:36:12,612 - INFO - Example Task - Completed Successfully
+2025-05-03 12:36:14,665 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 12:37:14,707 - INFO - Running: Example Task
+2025-05-03 12:37:15,708 - INFO - Example Task - Completed Successfully
+2025-05-03 12:37:17,748 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 12:38:17,786 - INFO - Running: Example Task
+2025-05-03 12:38:18,787 - INFO - Example Task - Completed Successfully
+2025-05-03 12:38:20,834 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 12:39:20,866 - INFO - Running: Example Task
+2025-05-03 12:39:21,867 - INFO - Example Task - Completed Successfully
+2025-05-03 12:39:23,915 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 12:40:23,948 - INFO - Running: Example Task
+2025-05-03 12:40:24,948 - INFO - Example Task - Completed Successfully
+2025-05-03 12:40:26,993 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 12:41:27,022 - INFO - Running: Example Task
+2025-05-03 12:41:28,023 - INFO - Example Task - Completed Successfully
+2025-05-03 12:41:30,059 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 12:42:30,096 - INFO - Running: Example Task
+2025-05-03 12:42:31,097 - INFO - Example Task - Completed Successfully
+2025-05-03 12:42:33,142 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 12:43:33,175 - INFO - Running: Example Task
+2025-05-03 12:43:34,176 - INFO - Example Task - Completed Successfully
+2025-05-03 12:43:36,196 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 12:44:36,231 - INFO - Running: Example Task
+2025-05-03 12:44:37,232 - INFO - Example Task - Completed Successfully
+2025-05-03 12:44:39,273 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 12:45:39,327 - INFO - Running: Example Task
+2025-05-03 12:45:40,328 - INFO - Example Task - Completed Successfully
+2025-05-03 12:45:42,368 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 12:46:42,404 - INFO - Running: Example Task
+2025-05-03 12:46:43,405 - INFO - Example Task - Completed Successfully
+2025-05-03 12:46:45,454 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 12:47:45,491 - INFO - Running: Example Task
+2025-05-03 12:47:46,493 - INFO - Example Task - Completed Successfully
+2025-05-03 12:47:48,529 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 12:48:48,587 - INFO - Running: Example Task
+2025-05-03 12:48:49,588 - INFO - Example Task - Completed Successfully
+2025-05-03 12:48:51,624 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 12:49:51,660 - INFO - Running: Example Task
+2025-05-03 12:49:52,660 - INFO - Example Task - Completed Successfully
+2025-05-03 12:49:54,702 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 12:50:54,754 - INFO - Running: Example Task
+2025-05-03 12:50:55,755 - INFO - Example Task - Completed Successfully
+2025-05-03 12:50:57,818 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 12:51:57,871 - INFO - Running: Example Task
+2025-05-03 12:51:58,872 - INFO - Example Task - Completed Successfully
+2025-05-03 12:52:00,914 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 12:53:00,962 - INFO - Running: Example Task
+2025-05-03 12:53:01,963 - INFO - Example Task - Completed Successfully
+2025-05-03 12:53:04,017 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 12:54:04,060 - INFO - Running: Example Task
+2025-05-03 12:54:05,061 - INFO - Example Task - Completed Successfully
+2025-05-03 12:54:07,101 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 12:55:07,134 - INFO - Running: Example Task
+2025-05-03 12:55:08,135 - INFO - Example Task - Completed Successfully
+2025-05-03 12:55:10,176 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 12:56:10,213 - INFO - Running: Example Task
+2025-05-03 12:56:11,216 - INFO - Example Task - Completed Successfully
+2025-05-03 12:56:13,273 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 12:57:13,358 - INFO - Running: Example Task
+2025-05-03 12:57:14,359 - INFO - Example Task - Completed Successfully
+2025-05-03 12:57:16,410 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 12:58:16,472 - INFO - Running: Example Task
+2025-05-03 12:58:17,474 - INFO - Example Task - Completed Successfully
+2025-05-03 12:58:19,533 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 12:59:19,585 - INFO - Running: Example Task
+2025-05-03 12:59:20,586 - INFO - Example Task - Completed Successfully
+2025-05-03 12:59:22,627 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 13:00:22,686 - INFO - Running: Example Task
+2025-05-03 13:00:23,686 - INFO - Example Task - Completed Successfully
+2025-05-03 13:00:25,735 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 13:01:25,789 - INFO - Running: Example Task
+2025-05-03 13:01:26,790 - INFO - Example Task - Completed Successfully
+2025-05-03 13:01:28,821 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 13:02:28,896 - INFO - Running: Example Task
+2025-05-03 13:02:29,897 - INFO - Example Task - Completed Successfully
+2025-05-03 13:02:31,937 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 13:03:32,004 - INFO - Running: Example Task
+2025-05-03 13:03:33,005 - INFO - Example Task - Completed Successfully
+2025-05-03 13:03:35,042 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 13:04:35,073 - INFO - Running: Example Task
+2025-05-03 13:04:36,073 - INFO - Example Task - Completed Successfully
+2025-05-03 13:04:38,116 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 13:05:38,154 - INFO - Running: Example Task
+2025-05-03 13:05:39,155 - INFO - Example Task - Completed Successfully
+2025-05-03 13:05:41,195 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 13:06:41,242 - INFO - Running: Example Task
+2025-05-03 13:06:42,243 - INFO - Example Task - Completed Successfully
+2025-05-03 13:06:44,302 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 13:07:44,350 - INFO - Running: Example Task
+2025-05-03 13:07:45,351 - INFO - Example Task - Completed Successfully
+2025-05-03 13:07:47,394 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 13:08:47,437 - INFO - Running: Example Task
+2025-05-03 13:08:48,438 - INFO - Example Task - Completed Successfully
+2025-05-03 13:08:50,488 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 13:09:50,527 - INFO - Running: Example Task
+2025-05-03 13:09:51,528 - INFO - Example Task - Completed Successfully
+2025-05-03 13:09:53,576 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully
+2025-05-03 13:10:53,621 - INFO - Running: Example Task
+2025-05-03 13:10:54,622 - INFO - Example Task - Completed Successfully
+2025-05-03 13:10:56,663 - INFO - Sent event to DevOpsAgent: Example Task Completed Successfully

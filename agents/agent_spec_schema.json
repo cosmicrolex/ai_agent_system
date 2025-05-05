@@ -1,0 +1,34 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "name": { "type": "string" },
+    "domain": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "inputs": {
+      "type": "object",
+      "properties": {
+        "type": { "type": "string" },
+        "format": { "type": "string" }
+      },
+      "required": ["type", "format"]
+    },
+    "outputs": {
+      "type": "object",
+      "properties": {
+        "type": { "type": "string" }
+      },
+      "required": ["type"]
+    },
+    "author": { "type": "string" },
+    "version": { "type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+$" },
+    "capabilities": {
+      "type": "array",
+      "items": { "type": "string", "enum": ["execute", "chainable", "memory_access"] }
+    },
+    "runtime": { "type": "string" }
+  },
+  "required": ["name", "domain", "inputs", "outputs", "author", "version", "capabilities", "runtime"]
+}

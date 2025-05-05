@@ -1,5 +1,4 @@
 # agents/devops_agent/devops_agent.py
-
 import subprocess
 import logging
 import os
@@ -41,7 +40,7 @@ class DevOpsAgent:
         self.db = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="Tanuja@1980",
+            password="blackholeinfiverse123",
             database="agent_system"
         )
         self.cursor = self.db.cursor()
@@ -96,7 +95,7 @@ class DevOpsAgent:
         if self.db.is_connected():
             self.cursor.close()
             self.db.close()
-
+######################################################################################
 # Example Usage
 if __name__ == "__main__":
     agent = DevOpsAgent()

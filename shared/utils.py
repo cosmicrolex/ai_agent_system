@@ -1,5 +1,4 @@
 # shared/utils.py
-
 import os
 import mysql.connector
 import logging
@@ -22,6 +21,6 @@ def get_db_connection():
     return mysql.connector.connect(
         host="localhost",
         user="root",
-        password="Tanuja@1980",
+        password="blackholeinfiverse123", #change your credentials here
         database="agent_system"
     )

@@ -1,15 +1,6 @@
-2025-05-02 12:56:23,881 - INFO - SUCCESS: GET request to https://jsonplaceholder.typicode.com/posts
-2025-05-02 12:56:24,686 - WARNING - FAILED: POST request to https://jsonplaceholder.typicode.com/posts - Status Code: 201
-2025-05-02 12:56:24,714 - ERROR - ERROR: GET request to https://wrongurl.test - HTTPSConnectionPool(host='wrongurl.test', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002B506777D10>: Failed to resolve 'wrongurl.test' ([Errno 11001] getaddrinfo failed)"))
-2025-05-02 13:01:17,099 - INFO - SUCCESS: GET request to https://jsonplaceholder.typicode.com/posts
-2025-05-02 13:01:17,838 - WARNING - FAILED: POST request to https://jsonplaceholder.typicode.com/posts - Status Code: 201
-2025-05-02 13:01:17,860 - ERROR - ERROR: GET request to https://wrongurl.test - HTTPSConnectionPool(host='wrongurl.test', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000198117B7110>: Failed to resolve 'wrongurl.test' ([Errno 11001] getaddrinfo failed)"))
-2025-05-02 13:08:58,337 - INFO - SUCCESS: GET request to https://jsonplaceholder.typicode.com/posts
-2025-05-02 13:08:59,021 - WARNING - FAILED: POST request to https://jsonplaceholder.typicode.com/posts - Status Code: 201
-2025-05-02 13:08:59,055 - ERROR - ERROR: GET request to https://wrongurl.test - HTTPSConnectionPool(host='wrongurl.test', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000026A47567290>: Failed to resolve 'wrongurl.test' ([Errno 11001] getaddrinfo failed)"))
-2025-05-02 13:34:14,947 - INFO - SUCCESS: GET request to https://jsonplaceholder.typicode.com/posts
-2025-05-02 13:34:15,726 - WARNING - FAILED: POST request to https://jsonplaceholder.typicode.com/posts - Status Code: 201
-2025-05-02 13:34:15,755 - ERROR - ERROR: GET request to https://wrongurl.test - HTTPSConnectionPool(host='wrongurl.test', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000020A6AF57BC0>: Failed to resolve 'wrongurl.test' ([Errno 11001] getaddrinfo failed)"))
-2025-05-02 13:48:06,394 - INFO - SUCCESS: GET request to https://jsonplaceholder.typicode.com/posts
-2025-05-02 13:48:06,721 - WARNING - FAILED: POST request to https://jsonplaceholder.typicode.com/posts - Status Code: 201
-2025-05-02 13:48:06,757 - ERROR - ERROR: GET request to https://wrongurl.test - HTTPSConnectionPool(host='wrongurl.test', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000014F913872F0>: Failed to resolve 'wrongurl.test' ([Errno 11001] getaddrinfo failed)"))
+2025-05-03 12:10:57,741 - INFO - SUCCESS: GET request to https://jsonplaceholder.typicode.com/posts
+2025-05-03 12:10:58,356 - WARNING - FAILED: POST request to https://jsonplaceholder.typicode.com/posts - Status Code: 201
+2025-05-03 12:10:58,372 - ERROR - ERROR: GET request to https://wrongurl.test - HTTPSConnectionPool(host='wrongurl.test', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000022CE5A11040>: Failed to resolve 'wrongurl.test' ([Errno 11001] getaddrinfo failed)"))
+2025-05-03 12:13:06,351 - INFO - SUCCESS: GET request to https://jsonplaceholder.typicode.com/posts
+2025-05-03 12:13:07,003 - WARNING - FAILED: POST request to https://jsonplaceholder.typicode.com/posts - Status Code: 201
+2025-05-03 12:13:07,018 - ERROR - ERROR: GET request to https://wrongurl.test - HTTPSConnectionPool(host='wrongurl.test', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002AC93D12240>: Failed to resolve 'wrongurl.test' ([Errno 11001] getaddrinfo failed)"))

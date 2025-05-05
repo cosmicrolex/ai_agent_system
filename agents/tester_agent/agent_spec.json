@@ -1,0 +1,18 @@
+{
+    "name": "tester_agent",
+    "domain": ["workflow"],
+    "inputs": {
+      "type": "json",
+      "format": {
+        "endpoints": "list of endpoint objects with method and URL"
+      }
+    },
+    "outputs": {
+      "type": "json"
+    },
+    "author": "your_name",
+    "version": "1.0.0",
+    "capabilities": ["execute", "chainable", "memory_access"],
+    "runtime": "python3"
+  }
+  

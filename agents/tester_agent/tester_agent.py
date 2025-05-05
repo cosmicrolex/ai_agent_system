@@ -26,7 +26,7 @@ class TesterAgent:
         self.db = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="Tanuja@1980",
+            password="blackholeinfiverse123",
             database="agent_system"
         )
         self.cursor = self.db.cursor()
@@ -66,3 +66,43 @@ class TesterAgent:
         if self.db.is_connected():
             self.cursor.close()
             self.db.close()
+
+def main(input_data):
+    endpoints = input_data.get("endpoints", [])
+    output = []
+
+    for ep in endpoints:
+        method = ep.get("method", "GET").upper()
+        url = ep.get("url")
+        try:
+            if method == "GET":
+                res = requests.get(url)
+            elif method == "POST":
+                res = requests.post(url)
+            elif method == "PUT":
+                res = requests.put(url)
+            elif method == "DELETE":
+                res = requests.delete(url)
+            else:
+                output.append({
+                    "method": method,
+                    "url": url,
+                    "error": f"Unsupported HTTP method: {method}"
+                })
+                continue
+
+            output.append({
+                "method": method,
+                "url": url,
+                "status_code": res.status_code,
+                "response": res.json() if res.headers.get("Content-Type", "").startswith("application/json") else res.text
+            })
+
+        except Exception as e:
+            output.append({
+                "method": method,
+                "url": url,
+                "error": str(e)
+            })
+
+    return output

@@ -1,0 +1,16 @@
+{
+    "name": "devops_agent",
+    "domain": ["devops", "infrastructure"],
+    "inputs": {
+      "type": "json",
+      "format": "deployment_config"
+    },
+    "outputs": {
+      "type": "json"
+    },
+    "author": "your_name_here",
+    "version": "1.0.0",
+    "capabilities": ["execute", "chainable"],
+    "runtime": "python3"
+  }
+  

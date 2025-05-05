@@ -43,7 +43,7 @@ class WorkflowAgent:
         self.db = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="Tanuja@1980",
+            password="blackholeinfiverse123",
             database="agent_system"
         )
         self.cursor = self.db.cursor()

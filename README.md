@@ -13,29 +13,52 @@ It also simulates Blockchain DeFi integration using a Go agent.
 ---
 
 ## 🏗️ Project Structure
-
-ai_agent_system/
-├── agents/
-│   ├── tester_agent/
-│   ├── workflow_agent/
-│   ├── devops_agent/
-│   ├── cli_tool/
-│   │   └── agent_cli.py
-├── communication/
-│   └── event_bus.py
-├── ui/
-│   ├── index.html
-│   ├── style.css
-│   └── app.js
-├── go_agents/
-│   └── go_agent.go
-├── database/
-│   └── schema.sql
-├── logs/
-│   └── (Log files of each agent)
-├── requirements.txt
-└── README.md
-
+.
+└── ai_agent_system  /
+    ├── agents /
+    │   ├── devops_agent/
+    │   │   ├── _pycache_
+    │   │   └── devops_agent.py
+    │   ├── tester_agent/
+    │   │   ├── _pycache_
+    │   │   └── tester_agent.py
+    │   └── workflow_agent/
+    │       ├── _pycache_
+    │       └── workflow_agent.py
+    ├── baskets/
+    │   ├── backend.json
+    │   ├── devops.json
+    │   └── workflow.json
+    ├── cli_tool/
+    │   └── agent_cli.py
+    ├── communication/
+    │   └── event_bus.py
+    ├── database/
+    │   └── schema.sql
+    ├── enviorment1/
+    │   ├── Include
+    │   ├── Lib
+    │   ├── Scripts
+    │   └── pyvenv.cfg
+    ├── integration/
+    │   ├── app.js
+    │   ├── devops_logs. htm I
+    │   ├── index.html
+    │   ├── style.css
+    │   ├── tester_logs.html
+    │   └── workflow_logs.html
+    ├── logs/
+    │   ├── devops_agent.log
+    │   ├── event_bus.log
+    │   ├── tester_agent.log
+    │   └── workflow_agent.log
+    ├── node_modules
+    ├── shared
+    ├── package.json
+    ├── package-lock.json
+    ├── README.md
+    ├── reqiurements.txt
+    └── run.py
 
 python -m venv venv
 source venv/bin/activate    # Linux/Mac
